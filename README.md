@@ -60,7 +60,7 @@ sort({ width, height, length, mass }): "STANDARD" | "SPECIAL" | "REJECTED"
 ## ⚙️ Setup & Installation
 
 ``` bash
-git clone https://github.com/YOUR_USERNAME/package-sorter.git
+git clone https://github.com/po1206/package-sorter.git
 cd package-sorter
 npm install
 ```
