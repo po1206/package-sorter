@@ -1,7 +1,7 @@
 # 📦 Package Sorter (TypeScript)
 
 A TypeScript-based package classification system for a robotic
-automation factory.\
+automation factory.
 This project determines how packages should be dispatched based on their
 **volume** and **mass**.
 
@@ -11,8 +11,8 @@ This project determines how packages should be dispatched based on their
 
 Implement a function that routes packages into the correct stack:
 
--   **STANDARD** → Not bulky and not heavy\
--   **SPECIAL** → Either bulky or heavy\
+-   **STANDARD** → Not bulky and not heavy
+-   **SPECIAL** → Either bulky or heavy
 -   **REJECTED** → Both bulky and heavy
 
 ------------------------------------------------------------------------
@@ -21,7 +21,7 @@ Implement a function that routes packages into the correct stack:
 
 ### A package is **bulky** if:
 
--   Volume ≥ **1,000,000 cm³**, OR\
+-   Volume ≥ **1,000,000 cm³**, OR
 -   Any dimension ≥ **150 cm**
 
 ### A package is **heavy** if:
@@ -102,18 +102,18 @@ console.log(result); // REJECTED
 
 ## 💡 Design Decisions
 
--   Strict typing ensures type safety\
--   Pure function design makes logic testable\
--   Input validation prevents invalid data\
+-   Strict typing ensures type safety
+-   Pure function design makes logic testable
+-   Input validation prevents invalid data
 -   Readable logic improves maintainability
 
 ------------------------------------------------------------------------
 
 ## 🚀 Future Improvements
 
--   API wrapper (Express / Fastify)\
--   Docker support\
--   CI/CD pipeline\
+-   API wrapper (Express / Fastify)
+-   Docker support
+-   CI/CD pipeline
 -   UI interface
 
 ------------------------------------------------------------------------
